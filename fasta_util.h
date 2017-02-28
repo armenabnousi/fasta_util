@@ -16,16 +16,6 @@ public:
 	Protein(std::string prot_name, std::string prot_seq) : name(prot_name), sequence(prot_seq) { };
 };
 
-/*
-class NumberedProtein {
-public:
-        int sequence_id;
-	int domain_id;
-        std::string sequence;
-        NumberedProtein(int prot_id, int dom_id, std::string prot_seq) : name(prot_id), domain_id(dom_id), sequence(prot_seq) { };
-};
-*/
-
 class FastaToolbox {
 	
 public:
